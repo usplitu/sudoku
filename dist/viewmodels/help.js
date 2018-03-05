@@ -1,7 +1,7 @@
 System.register([], function (_export, _context) {
   "use strict";
 
-  var Welcome;
+  var Help;
 
   function _classCallCheck(instance, Constructor) {
     if (!(instance instanceof Constructor)) {
@@ -12,14 +12,14 @@ System.register([], function (_export, _context) {
   return {
     setters: [],
     execute: function () {
-      _export('Welcome', Welcome = function Welcome() {
-        _classCallCheck(this, Welcome);
+      _export('Help', Help = function Help() {
+        _classCallCheck(this, Help);
 
-        this.heading = 'The Most Difficult Sudoku Solved in Seconds';
+        this.title = 'Quick Start';
       });
 
-      _export('Welcome', Welcome);
+      _export('Help', Help);
     }
   };
 });
-//# sourceMappingURL=welcome.js.map
+//# sourceMappingURL=help.js.map
